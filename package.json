@@ -4,7 +4,7 @@
   "private": true,
   "description": "Recursion returns with a vengeance, and in node!",
   "scripts": {
-    "test": "mocha spec && yarn lint",
+    "test": "mocha spec && npm run lint",
     "lint": "eslint --fix --ext .js src spec"
   },
   "devDependencies": {
@@ -27,5 +27,17 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KuroKen91/cc19-sprint.recursion-returns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KuroKen91/cc19-sprint.recursion-returns/issues"
+  },
+  "homepage": "https://github.com/KuroKen91/cc19-sprint.recursion-returns#readme"
 }
